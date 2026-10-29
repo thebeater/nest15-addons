@@ -1,13 +1,5 @@
-# NEST15 Familie · Update-Katalog
+# NEST15 Familie · öffentlicher Update-Katalog
 
-Öffentlich sind hier ausschließlich geprüfte Update-Metadaten. Quellcode, Container-Images, Zugangsdaten und persönliche Gerätedaten gehören nicht in dieses Repository.
-
-Die dauerhafte Repository-Adresse lautet exakt:
-
-`https://github.com/thebeater/nest15-addons`
-
-App-Slug: `nest15_family` · erwartete Home-Assistant-Kennung: `405685bb_nest15_family`.
-
-Diese Adresse und der Slug werden bei normalen Releases und Tokenwechseln nicht geändert. Der einmalige Umstieg von der lokalen App wird gesichert und getrennt durchgeführt.
-
-Status: Cloud-Veröffentlichungsweg wird vorbereitet. Noch keine installierbare Version in diesem Katalog veröffentlicht.
+Automatisch nach Tests und Image-Smokechecks erzeugt. Feste App-Kennung: 405685bb_nest15_family.
+Nur Metadaten, keine Konfigurationen, Schlüssel oder Gerätedaten.
+Version 0.2.27; Installation und Sicherung werden in Home Assistant bestätigt.

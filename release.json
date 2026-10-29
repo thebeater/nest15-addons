@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "repository": "thebeater/Blackview_NEST15",
+  "version": "0.2.27",
+  "commit": "ed97245c9ad45edf4f49582f60f18e8678b8fbb1",
+  "image": "ghcr.io/thebeater/nest15-family",
+  "digest": "sha256:52edb35f7a831574d4dc7bf5f50f88468a4b7f6b1f5ef0bd9c3d1b02b2659245",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "storeURL": "https://github.com/thebeater/nest15-addons",
+  "appSlug": "405685bb_nest15_family"
+}

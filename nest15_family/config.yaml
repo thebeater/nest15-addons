@@ -1,0 +1,27 @@
+name: NEST15 Familie
+version: "0.2.27"
+slug: nest15_family
+description: "Familienoberfläche für das NEST15 im 1920 × 1080 Querformat"
+arch:
+  - amd64
+  - aarch64
+startup: application
+boot: manual
+ingress: true
+ingress_port: 3000
+panel_icon: mdi:home-heart
+panel_title: Familie
+homeassistant_api: true
+options:
+  app_slug: 405685bb_nest15_family
+  migration_hold: true
+  display_control: configured
+  dashboard_bridge: false
+  device_reboot_target: ""
+schema:
+  app_slug: str
+  migration_hold: bool
+  display_control: list(configured|black|nest15_companion)
+  dashboard_bridge: bool
+  device_reboot_target: str?
+image: ghcr.io/thebeater/nest15-family
