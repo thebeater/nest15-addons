@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "repository": "thebeater/Blackview_NEST15",
-  "version": "0.2.27",
-  "commit": "ed97245c9ad45edf4f49582f60f18e8678b8fbb1",
+  "version": "0.2.28",
+  "commit": "5a490f24ab0e58d124aab8dd235c79f197305cbb",
   "image": "ghcr.io/thebeater/nest15-family",
-  "digest": "sha256:52edb35f7a831574d4dc7bf5f50f88468a4b7f6b1f5ef0bd9c3d1b02b2659245",
+  "digest": "sha256:78b52889649bf1d33ac4a5d0082f327b56cdba40f97fea199b04c5a061b102f4",
   "architectures": [
     "amd64",
     "arm64"
