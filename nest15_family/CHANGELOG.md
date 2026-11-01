@@ -1,10 +1,10 @@
-# 0.2.29
+# 0.2.30
 
-- Aufwecken setzt zunächst die bestehende Companion-Oberfläche fort. Mehrere Bewegungs-/Präsenzmeldungen öffnen nicht mehr unmittelbar nacheinander neue WebViews. Nur bei ausbleibender frischer Rückmeldung wird nach 15 Sekunden gezielt geöffnet; höchstens zwei automatische Versuche mit mindestens einer Minute Abstand.
-- Präsenz in der Küche hat Vorrang vor Flurbewegung. Eine belegte Küche behält ihre Ansicht; Flurbewegung darf das Display weiterhin wecken. Beim Verlassen der Küche bleibt der Wechsel zu Ruhe erhalten.
-- Maggy erhält in der oberen Leiste Status, Akku-/Fehleranzeige und Start/Fortsetzen, Pause, Station sowie native HA-Raumauswahl. Raumreinigung erfordert gültige Kartensegmente und die Zuordnung zu HA-Räumen.
-- Im Fotobildschirmschoner blättern dezente Ecktasten vor/zurück, ohne Ruhe zu verlassen. „Einrichten“ zeigt die von HA gelieferten verfügbaren Fotos.
-- Die vorgelagerte Einschränkung gemischter iCloud-Alben ist als eigener geprüfter HA-/PyiCloud-Patchsatz vorbereitet. Dieses NEST15-Update installiert keinen HA-Core-/SDK-Patch; die vollständige Fotoquelle benötigt diese separate Bereitstellung und reale Abnahme.
+- Hochformatfotos werden vollständig und ohne Beschnitt gezeigt. Zwei passende Bilder desselben Nachbarblocks erscheinen nebeneinander; einzelne Hochformate, Querformate und das letzte Bild einer ungeraden Folge bleiben vollständig sichtbar.
+- Ein ruhiges warmes Passepartout und ein schmaler Bildsteg greifen den weißen Außenrahmen auf. Dunkelansicht und Nacht verwenden eine dunkle Fläche und gedämpfte Bilder.
+- Uhr, nächster Termin, Timer und kompakte Musikbedienung liegen unter den Fotos. Längere Timertexte und Fehlermeldungen erhalten mehr Platz.
+- Automatischer Wechsel und beide Fotopfeile berücksichtigen Zweiergruppen. Langsame oder fehlende Partner verhindern die Anzeige des einzelnen Fotos nicht; überholte Ladeantworten ersetzen keine neuere Auswahl.
+- Bestehendes Album, Wechselintervall, Übergang und Displaysteuerung bleiben erhalten. Die App-Kennung und der vorhandene Android-Starter ändern sich nicht.
 
 Bekannter Bestandsbefund: drei konservative Worst-Case-Kontrastprüfungen am Musikdock im hellen Alpensee bleiben unter dem Zielwert. Die unveränderte Gestaltung und der dokumentierte Befund werden im Releaseworkflow ausdrücklich bestätigt; neue Abweichungen blockieren die CI.
 
