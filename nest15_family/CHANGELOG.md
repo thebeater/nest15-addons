@@ -1,11 +1,7 @@
-# 0.2.32
+# 0.2.33
 
-- Die Fotoansicht erhält ein gedämpftes, weiterhin helles Weißgrau. Pfeile und Musiknote erscheinen als kleine Symbole ohne dunkle Kacheln; ihre Touchflächen bleiben mindestens 48 Pixel groß.
-- Rechts stehen aktuelles Wetter und die Regenaussicht für die nächsten drei Stunden mit denselben Symbolen und Temperaturen wie in der übrigen NEST15-Oberfläche. Fehlende oder veraltete Daten werden ausdrücklich angezeigt. Die Fotos behalten ihre volle Höhe.
-- Präsenz in Flur und Küche weckt ein schlafendes Display in die Ruheansicht. Eine bereits geöffnete Ansicht bleibt bei Präsenzwechseln erhalten; Küchenpräsenz öffnet nicht mehr automatisch Heute.
-- Popups schließen nach 20 Sekunden ohne Bedienung. Ungespeicherte Einstellungs- und Artikelentwürfe bleiben beim automatischen Schließen erhalten, solange ihre zugrunde liegenden Daten unverändert sind. Laufende Speicherungen werden vor dem automatischen Schließen abgeschlossen.
-- Der Bildschirmschoner startet standardmäßig nach einer Minute ohne Bedienung. Zustands- und Wetteraktualisierungen verlängern die Frist nicht. Die getrennte Abschaltung bei Abwesenheit und der Schutz durch Timer bleiben erhalten.
+Family photos preload the current, next and previous composition and preserve selection when leaving the screensaver. Prepared photos are present on the first Rest render. A subtle long-press control offers quick selection of photos, Alpine landscape, fireplace and clock. Current rain uses the configured Rain Warner observation independently of the hourly forecast.
 
-Bekannter Bestandsbefund: drei konservative Worst-Case-Kontrastprüfungen am Musikdock im hellen Alpensee bleiben unter dem Zielwert. Die unveränderte Gestaltung und der dokumentierte Befund werden im Releaseworkflow ausdrücklich bestätigt; neue Abweichungen blockieren die CI.
+A local emergency build path preserves the existing private images, immutable source labels and Home Assistant app identity. CI selects relevant checks and reduces artifact storage; complete release checks remain available.
 
-Vor dem Update App und Daten sichern. Die feste Repository-App `405685bb_nest15_family`, ihre Daten und der vorhandene Starter bleiben erhalten. Quelle und Images bleiben privat. GitHub installiert das Update nicht automatisch auf dem NEST15.
+The three inherited Alpine music-dock contrast limits were revalidated unchanged across all 240 checks after the weather data binding changed. Material and music-control source files remain unchanged. Explicit acknowledgement remains required; new failures still block publication.
