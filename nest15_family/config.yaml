@@ -1,5 +1,5 @@
 name: NEST15 Familie
-version: "0.2.33"
+version: "0.2.34"
 slug: nest15_family
 description: "Familienoberfläche für das NEST15 im 1920 × 1080 Querformat"
 arch:
