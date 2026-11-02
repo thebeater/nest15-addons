@@ -1,11 +1,10 @@
-# 0.2.31
+# 0.2.32
 
-- Hochformatfotos nutzen jetzt die gesamte verfügbare Displayhöhe. Der bisherige vertikale Außenabstand und die hohe Fußzone entfallen.
-- Passende Hochformate werden im gesamten ausgewählten Album zu Zweiergruppen zusammengestellt, auch wenn Querformate dazwischenliegen. Der Fotomodus beginnt bei einem verfügbaren Paar. Jedes Foto bleibt genau einmal im Umlauf.
-- Eine ruhige rechte Informationsleiste nutzt den freien Platz neben Hochformaten für Uhr, Termine, Timer, Musik und beide Fotopfeile. Einzelfotos werden im übrigen Bildbereich zentriert. Bei bildfüllenden Querformaten öffnet „Uhr · Info“ die Informationen; Timer- und Musikstatus bleiben am Öffner erkennbar.
-- Die Formaterkennung liest begrenzte Bildheader mit höchstens drei parallelen Anfragen und speichert nur einen begrenzten privaten Metadaten-Cache. Sie lädt das Album nicht vorab als große Browserbilder.
-- Langsame Partner haben dieselbe Ladefrist wie das erste Foto. Fehler ändern den Albumplan nicht; ein Foto kann erneut geladen werden. Nachtansicht, Übergänge und Pause bei unsichtbarem Display bleiben erhalten.
-- Albumquelle, Wechselintervall, App-Kennung und vorhandener Android-Starter bleiben erhalten.
+- Die Fotoansicht erhält ein gedämpftes, weiterhin helles Weißgrau. Pfeile und Musiknote erscheinen als kleine Symbole ohne dunkle Kacheln; ihre Touchflächen bleiben mindestens 48 Pixel groß.
+- Rechts stehen aktuelles Wetter und die Regenaussicht für die nächsten drei Stunden mit denselben Symbolen und Temperaturen wie in der übrigen NEST15-Oberfläche. Fehlende oder veraltete Daten werden ausdrücklich angezeigt. Die Fotos behalten ihre volle Höhe.
+- Präsenz in Flur und Küche weckt ein schlafendes Display in die Ruheansicht. Eine bereits geöffnete Ansicht bleibt bei Präsenzwechseln erhalten; Küchenpräsenz öffnet nicht mehr automatisch Heute.
+- Popups schließen nach 20 Sekunden ohne Bedienung. Ungespeicherte Einstellungs- und Artikelentwürfe bleiben beim automatischen Schließen erhalten, solange ihre zugrunde liegenden Daten unverändert sind. Laufende Speicherungen werden vor dem automatischen Schließen abgeschlossen.
+- Der Bildschirmschoner startet standardmäßig nach einer Minute ohne Bedienung. Zustands- und Wetteraktualisierungen verlängern die Frist nicht. Die getrennte Abschaltung bei Abwesenheit und der Schutz durch Timer bleiben erhalten.
 
 Bekannter Bestandsbefund: drei konservative Worst-Case-Kontrastprüfungen am Musikdock im hellen Alpensee bleiben unter dem Zielwert. Die unveränderte Gestaltung und der dokumentierte Befund werden im Releaseworkflow ausdrücklich bestätigt; neue Abweichungen blockieren die CI.
 
