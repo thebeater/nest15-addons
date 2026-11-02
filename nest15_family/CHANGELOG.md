@@ -1,10 +1,11 @@
-# 0.2.30
+# 0.2.31
 
-- Hochformatfotos werden vollständig und ohne Beschnitt gezeigt. Zwei passende Bilder desselben Nachbarblocks erscheinen nebeneinander; einzelne Hochformate, Querformate und das letzte Bild einer ungeraden Folge bleiben vollständig sichtbar.
-- Ein ruhiges warmes Passepartout und ein schmaler Bildsteg greifen den weißen Außenrahmen auf. Dunkelansicht und Nacht verwenden eine dunkle Fläche und gedämpfte Bilder.
-- Uhr, nächster Termin, Timer und kompakte Musikbedienung liegen unter den Fotos. Längere Timertexte und Fehlermeldungen erhalten mehr Platz.
-- Automatischer Wechsel und beide Fotopfeile berücksichtigen Zweiergruppen. Langsame oder fehlende Partner verhindern die Anzeige des einzelnen Fotos nicht; überholte Ladeantworten ersetzen keine neuere Auswahl.
-- Bestehendes Album, Wechselintervall, Übergang und Displaysteuerung bleiben erhalten. Die App-Kennung und der vorhandene Android-Starter ändern sich nicht.
+- Hochformatfotos nutzen jetzt die gesamte verfügbare Displayhöhe. Der bisherige vertikale Außenabstand und die hohe Fußzone entfallen.
+- Passende Hochformate werden im gesamten ausgewählten Album zu Zweiergruppen zusammengestellt, auch wenn Querformate dazwischenliegen. Der Fotomodus beginnt bei einem verfügbaren Paar. Jedes Foto bleibt genau einmal im Umlauf.
+- Eine ruhige rechte Informationsleiste nutzt den freien Platz neben Hochformaten für Uhr, Termine, Timer, Musik und beide Fotopfeile. Einzelfotos werden im übrigen Bildbereich zentriert. Bei bildfüllenden Querformaten öffnet „Uhr · Info“ die Informationen; Timer- und Musikstatus bleiben am Öffner erkennbar.
+- Die Formaterkennung liest begrenzte Bildheader mit höchstens drei parallelen Anfragen und speichert nur einen begrenzten privaten Metadaten-Cache. Sie lädt das Album nicht vorab als große Browserbilder.
+- Langsame Partner haben dieselbe Ladefrist wie das erste Foto. Fehler ändern den Albumplan nicht; ein Foto kann erneut geladen werden. Nachtansicht, Übergänge und Pause bei unsichtbarem Display bleiben erhalten.
+- Albumquelle, Wechselintervall, App-Kennung und vorhandener Android-Starter bleiben erhalten.
 
 Bekannter Bestandsbefund: drei konservative Worst-Case-Kontrastprüfungen am Musikdock im hellen Alpensee bleiben unter dem Zielwert. Die unveränderte Gestaltung und der dokumentierte Befund werden im Releaseworkflow ausdrücklich bestätigt; neue Abweichungen blockieren die CI.
 
