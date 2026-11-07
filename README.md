@@ -2,4 +2,4 @@
 
 Automatisch nach Tests und Image-Smokechecks erzeugt. Feste App-Kennung: 405685bb_nest15_family.
 Nur Metadaten, keine Konfigurationen, Schlüssel oder Gerätedaten.
-Version 0.2.34; Installation und Sicherung werden in Home Assistant bestätigt.
+Version 0.2.35; Installation und Sicherung werden in Home Assistant bestätigt.

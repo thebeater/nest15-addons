@@ -1,5 +1,7 @@
-# 0.2.34
+# 0.2.35
 
-The evening filter for family photos and the fireplace video now retains 75% image brightness and 95% saturation, replacing the overly strong 35% brightness / 75% saturation filter. Daytime media remains unfiltered; configured evening hours, UI surfaces, album preloading and other preferences are preserved.
+Fehlerantworten von Home Assistant werden verständlich angezeigt, statt eine technische JSON-Parsermeldung auszulösen. Abgelaufene Sitzungen und vorübergehende Verbindungsprobleme bleiben erkennbar; unbestätigte Geräteaktionen werden nicht automatisch wiederholt.
 
-Existing browser checks verify actual computed filters for day/night photos and playing video at both display sizes, including portrait pairs and both material modes. The three inherited Alpine music-dock contrast limits remain the documented unchanged baseline; protected material/music sources are unchanged and explicit release acknowledgement remains required.
+Gleichzeitige Foto-Vorladungen, Albumliste und Bildaufteilung teilen sich eine kurze Albumabfrage. Nach einem fehlgeschlagenen Albumabruf wird nach 15 Sekunden erneut geladen, während vorhandene Fotos sichtbar bleiben. Vorladung, volle Portrait-Bildhöhe, Paarung und der milde Abendfilter bleiben erhalten.
+
+Gleiche App-Kennung und gleicher privater Imageweg. Einstellungen und Album werden beim Update erhalten. Quellcode und Images bleiben privat; dieser Katalog enthält nur Installationsmetadaten.
