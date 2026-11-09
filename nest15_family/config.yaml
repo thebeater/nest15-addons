@@ -1,5 +1,5 @@
 name: NEST15 Familie
-version: "0.2.35"
+version: "0.3.0"
 slug: nest15_family
 description: "Familienoberfläche für das NEST15 im 1920 × 1080 Querformat"
 arch:
@@ -11,6 +11,7 @@ ingress: true
 ingress_port: 3000
 panel_icon: mdi:home-heart
 panel_title: Familie
+panel_admin: false
 homeassistant_api: true
 options:
   app_slug: 405685bb_nest15_family
