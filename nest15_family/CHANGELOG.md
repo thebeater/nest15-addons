@@ -1,9 +1,7 @@
-# 0.3.0
+# 0.3.1
 
-- Neuer Familienkalender mit Woche, Papiermonat, Mehrtägig-Bahnen und Tier-/Personenfarben.
-- Kinderbereich mit Mein Tag, Routinen, Sprachclips, Wunschablauf, Malbriefen und Rücknahme.
-- Serverseitige Eltern-PIN, dedizierter Display-Benutzer, private Kalenderrollen und geschützte Geräteaktionen.
-- Elternfreigabe per Handy; dauerhafte, gegen doppelte Übertragung geschützte Kalender-/Einkaufswünsche.
-- Unabhängige Kalenderquellen mit Fehlerstatus, ruhige Termintitel und zeitabhängige Lautstärkegrenzen.
-- Bestehende Fotos, Einstellungen, Timer und Displayregeln bleiben erhalten; Schema 1/2 wird zu Schema 3 migriert.
-- Einmalig persönliche PIN und Eltern-/Kalenderzuordnung direkt in Einrichten setzen; keine vorgegebene PIN.
+- „Euer Platz“ erhält auf Heute eine eigene untere Zeile. Einkauf, Essen und die großen Kinderaktionen überlagern sich auch mit Malbriefen und kleinerer WebView nicht mehr.
+- „Liste öffnen“ steht beim Einkaufstitel; die Artikelvorschau scrollt innerhalb ihres Bereichs.
+- Woche und Monat zeigen alle Termine in unabhängig scrollbaren Tageslisten. Tageskopf/Datum bleiben sichtbar; Antippen öffnet Termin- oder Tagesdetails.
+- Touch-Scrollen im Tagesfeld wechselt keinen Zeitraum. Mehrtägige Termine bleiben auch bei wenig Platz über die Tageslisten erreichbar.
+- Neue wiederverwendbare Browserregression mit vielen Einträgen, Touch, zwei Größen sowie Hell/Dunkel und Glas/Matt.
