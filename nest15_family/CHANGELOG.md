@@ -1,6 +1,6 @@
-# 0.4.2
+# 0.4.3
 
-- Batterie und Lüftungsbedarf auf Heute nur einmal im Kopf anzeigen; die doppelten großen Statuskarten entfallen.
-- Agenda und Wetter-/Einkaufsbereich nutzen den frei werdenden Platz, auch ohne Kinderbereich.
-- Wartende Wünsche, laufende Timer und die Detailansichten im Kopf bleiben erhalten.
-- Regression für doppelte Meldungen und verbleibende Höhe in acht Größen-/Themen-/Materialkombinationen.
+- Timo erhält ein lokales Erdmännchenbild auf Heute, im Kalender sowie in allen Kinder-, Wunsch- und Malbriefansichten.
+- Alle vier Ruhemodi zeigen den tatsächlichen Termintitel unter den Teilnehmern. Private Kalender bleiben geschützt.
+- Ohne angekündigten Regen steht „Kein Regen erwartet · 12 Std.“. Das Vorhersageende wird nicht als Regenbeginn dargestellt; unvollständige Vorhersagen bleiben erkennbar.
+- Browserregressionen für Erdmännchen, Termintitel/Details und trockene/nasse Wetterhinweise ergänzt.
